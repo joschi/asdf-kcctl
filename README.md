@@ -1,6 +1,6 @@
 # asdf-kcctl
 
-[![GitHub Actions Status](https://github.com/joschi/asdf-kcctl/workflows/Main%20workflow/badge.svg?branch=master)](https://github.com/joschi/asdf-kcctl/actions)
+[![GitHub Actions Status](https://github.com/joschi/asdf-kcctl/workflows/Main%20workflow/badge.svg?branch=main)](https://github.com/joschi/asdf-kcctl/actions)
 [![GitHub license](https://img.shields.io/github/license/joschi/asdf-kcctl?style=plastic)](https://github.com/joschi/asdf-kcctl/blob/master/LICENSE)
 
 ## kcctl
