@@ -45,7 +45,7 @@ install() {
     ;;
   esac
   # FIXME: mv "${tmp_download_dir}/kcctl-${version}-${platform}-${arch}/" "${bin_install_path}"
-  mv "${tmp_download_dir}/kcctl-1.0.0-SNAPSHOT-${platform}-${arch}/bin/kcctl" "${bin_install_path}"
+  mv "${tmp_download_dir}/kcctl-${version}-${platform}-${arch}/bin/kcctl" "${bin_install_path}"
   rm -f "${tmp_download_dir}/kcctl.tar.gz"
 }
 
@@ -109,7 +109,7 @@ get_download_url() {
   platform="$(get_platform)"
   local extension
   extension="$(get_extension)"
-  echo "https://github.com/kcctl/kcctl/releases/download/${version}/kcctl-${version}-${platform}-${arch}.${extension}"
+  echo "https://github.com/kcctl/kcctl/releases/download/v${version}/kcctl-${version}-${platform}-${arch}.${extension}"
 }
 
 install "$ASDF_INSTALL_TYPE" "$ASDF_INSTALL_VERSION" "$ASDF_INSTALL_PATH"
